@@ -44,7 +44,7 @@ def lingQuestions(lives):
           "You must answer 2 questions in a row correctly to move to level 2!")
     ans = input("Question 1. which of the following is not a stop consonant? b p m d k ")
     if ans == 'm':
-        print("nice, 1 down,,, 2 to go")
+        print("nice, 1 down,,, 1 to go")
     else:
         wrong_answer(lives, "ling")
 
